@@ -1,0 +1,1 @@
+Refer to your ChatGPT study plan for full details and copy it here.
