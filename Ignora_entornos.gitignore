@@ -9,15 +9,21 @@ Thumbs.db
 
 # Archivos temporales de Python
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
 
 # Archivos de notebooks temporales o checkpoints
 .ipynb_checkpoints/
 
+# Ignorar archivos CSV grandes o temporales
+*.csv
+
 # Configuración de VSCode
 .vscode/
+
+# Ignorar datasets locales
+data/
 
 # Archivos de salida o prueba
 *.log
@@ -28,5 +34,4 @@ __pycache__/
 .env
 *.env
 
-# Archivos CSV grandes o temporales (si lo deseas)
-ventas.csv
+
