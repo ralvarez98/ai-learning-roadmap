@@ -1,37 +1,43 @@
-# Entornos virtuales
+# 🧠 Entornos virtuales
 .venv/
-env/
 venv/
+env/
+.venv312/
 
-# Archivos de configuración del sistema operativo
+# 🧹 Archivos de configuración del sistema operativo
 .DS_Store
 Thumbs.db
 
-# Archivos temporales de Python
+# 🐍 Archivos temporales de Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Archivos de notebooks temporales o checkpoints
+# 📓 Notebooks temporales o checkpoints
 .ipynb_checkpoints/
 
-# Ignorar archivos CSV grandes o temporales
+# 📊 Ignorar archivos CSV grandes o temporales
 *.csv
 
-# Configuración de VSCode
+# 🛠 Configuración de VSCode
 .vscode/
 
-# Ignorar datasets locales
+# 📁 Ignorar datasets locales y temporales
 data/
 
-# Archivos de salida o prueba
+# 📄 Archivos de salida o prueba
 *.log
 *.tmp
 *.bak
 
-# Datos sensibles (ajusta si usas .env)
+# 🔐 Datos sensibles
 .env
 *.env
+
+# 📦 Archivos comprimidos o innecesarios
+*.zip
+*.tar.gz
+*.rar
 
 
